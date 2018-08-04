@@ -13,5 +13,5 @@ for password in passwfile :
                 smtpserver.login(user,password)
                 print (" Password Found ===> ", password)
                 break;
-        except smtpli.SMTPAuthenticationError:
-                print ("!! Password is incorrect ===> ", password)
+        باستثناء   smtplib . SMTPAuthenticationError :
+                print ( "كلمة المرور غير صحيحة ===>" ، كلمة المرور )
